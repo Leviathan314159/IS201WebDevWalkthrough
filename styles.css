@@ -1,0 +1,39 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+    background-color:blanchedalmond;
+}
+
+li {
+    font-size: 14px;
+    font-style: italic;
+}
+
+a {
+    color:aqua;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {text-decoration: underline;}
+.italics {font-style: italic; text-decoration: none;}
+/*Note: If you want to do italics and underline, do italics first, then underline.*/
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+
+
+.homebg {
+    background-image: url('images/simpsons_background.jpg');
+    /*background-position: bottom right;
+    background-repeat: repeat;*/
+}

@@ -7,11 +7,13 @@ body {
 
 li {
     font-size: 14px;
+    text-decoration: none;
     font-style: italic;
+    font-weight: normal;
 }
 
 a {
-    color:aqua;
+    color:rgb(0, 162, 255);
     text-decoration: none;
 }
 
@@ -25,15 +27,37 @@ a:hover {
     font-style: normal;
 }
 
-.underline {text-decoration: underline;}
-.italics {font-style: italic; text-decoration: none;}
+.underline {text-decoration: underline; font-weight: normal; font-style: normal;}
+.italics {font-style: italic; text-decoration: none; font-weight: normal;}
 /*Note: If you want to do italics and underline, do italics first, then underline.*/
-.bold {font-weight: bold;}
+.bold {font-weight: bold; font-style: normal; text-decoration: none;}
+.boldUnderline {text-decoration: underline; font-weight: bold; font-style: normal;}
 .justify {text-align: justify;}
 
 
 .homebg {
     background-image: url('images/simpsons_background.jpg');
-    /*background-position: bottom right;
-    background-repeat: repeat;*/
+    background-position: bottom-left;
+    background-repeat: repeat;
+}
+
+/*The following styles were only for practice, to demonstrate the box model*/
+
+.box1 {
+    border: solid 1px green;
+    border-bottom: dashed 1 px black;
+}
+
+.box2 {
+    padding: 5px;
+}
+
+.box3 {
+    margin: 50px;
+}
+
+.box4 {
+    padding-left: 10px;
+    margin: 100px;
+    border-right: solid 5px aqua;
 }
